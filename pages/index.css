@@ -125,9 +125,13 @@
   margin-bottom: 80px;
 }
 
-.recipes__video-caption_recipes__iframe {
+.recipes__video-caption {
   display: flex;
   justify-content: space-between;
+}
+
+.recipes__video-caption__recipes__iframe {
+  border: none;
 }
 
 .recipes__videos {
@@ -136,10 +140,6 @@
   gap: 40px;
   list-style-type: none;
   padding-bottom: 215px;
-  }
-
-  .recipes__iframe {
-    border: none;
   }
 
   .recipes__iframe {
