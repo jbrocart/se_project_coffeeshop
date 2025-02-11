@@ -1,3 +1,7 @@
+.iframe {
+  border: none;
+}
+
 .page {
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
@@ -136,5 +140,5 @@
   gap: 40px;
   list-style-type: none;
   padding-bottom: 215px;
-
   }
+
