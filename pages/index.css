@@ -125,7 +125,7 @@
   margin-bottom: 80px;
 }
 
-.recipes__video-caption {
+.recipes__video-caption_recipes__iframe {
   display: flex;
   justify-content: space-between;
 }
@@ -142,4 +142,7 @@
     border: none;
   }
 
-  
+  .recipes__iframe {
+    border: none;
+  }
+
