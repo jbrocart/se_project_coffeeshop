@@ -14,14 +14,78 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
+
 <body>
   <div class="page">
-    <header class="header"></header>
+    <header class="header">
+      <nav class="nav">
+        <img
+        src="./images/logo_coffeeshop_dark.svg"
+        alt="Triple Espresso logo"
+        class="nav__logo"
+        />
+        <ul class="nav__links">
+          <li>
+          <a class="nav__links" href="#recipes">Recipes</a>
+          </li>
+          <li>
+            <a class="nav__links" href="#reservations">Book a table</a>
+          </li>
+          <li>
+            <a class="nav__links" href="#menu">Menu</a>
+          </li>
+          <li>
+            <a class="nav__links" href="#footer">Contacts</a>
+        </li>
+        </ul>
+      </nav>
+      <h1 class="header__title">
+        <span class="header__span-accent">Specailty coffee</span>in the Triple Peaks Library
+      </h1>
+      <p class="header__description">
+        Welcome to our study zone! We've got the coffee to energizes you and
+        the cozy vibes to help you get crative.
+      </p>
+      <img
+      src="./images/inside_coffee_shop.png"
+      alt="ilistration 'Specialty coffee"
+      class="header__image"
+      />
+      <div class="header__footer">
+        <div>
+        <p class="header__paragraph">Hours:</p>
+        <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+        <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
+      </div>
+        <p class="header__paragraph">
+          200 Success Avenue, The Town of Triple Peaks
+        </p>
+      </div>
+    </header>
     <main class="content">
-      <section class="recipes"></section>
-      <section class="reservation"></section>
-      <section class="menu"></section>
-      <section class="about"></section>
+      <section id="recipes" class="recipes">
+        <h2 class="recipes__title">Recipes</h2>
+        <p class="recipes__subtitle">
+          Check out some recipes we've collected for your home-brewing convenience:
+        </p>
+        <ul class="recipes__videos">
+          <li>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=N9YUCwtpTYoV7GHZ"
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p class="recipes__video-caption"><span>Aeropress recipe</span><span>~5min</span></p>
+          </li>
+          <li>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/st571DYYTR8?si=Z4PirX-Lg8ON62rc"
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p class="recipes__video-caption"><span>French press recipe</span><span>~15min</span></p>
+          </li>
+        </ul>
+      </section>
+      <section id="reservations" class="reservation"></section>
+      <section id="menu" class="menu"></section>
+      <section id="footer" class="about"></section>
     </main>
     <footer class="footer"></footer>
   </div>
