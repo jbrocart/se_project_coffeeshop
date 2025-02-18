@@ -6,12 +6,3 @@
   max-width: 1600px;
   margin: 0 auto;
 }
-
-.header {
-  height: 800px;
-  padding: 30px 80px 40px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  background: center / cover no-repeat #fff url(../images/background_header.svg);
-}
