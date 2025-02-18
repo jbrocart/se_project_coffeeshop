@@ -47,11 +47,11 @@
  z-index: -1;
 }
 
-.about_circle_animation_blurred {
+.about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
 
-@keyframe pulsate {
+@keyframes pulsate {
   0% {
     opacity: 0;
   }
