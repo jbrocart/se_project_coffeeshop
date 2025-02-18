@@ -27,15 +27,6 @@
   margin-bottom: 80px;
 }
 
-.recipes__video-caption {
-  display: flex;
-  justify-content: space-between;
-}
-
-.recipes__videos-iframe {
-  border: none;
-}
-
 .recipes__videos {
   display: flex;
   justify-content: center;
@@ -43,3 +34,20 @@
   list-style-type: none;
   padding-bottom: 215px;
   }
+
+.recipes__video-container {
+  position: relative;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipes__videos-iframe {
+  border: none;
+  width: 480px;
+  height: 273px;
+}
