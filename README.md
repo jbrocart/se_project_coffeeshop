@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+I'd like to update the styling of the layout and use different fonts for the headers. Such as the first one you see on the webpage.
