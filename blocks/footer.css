@@ -45,6 +45,7 @@
   display: flex;
   align-items: center;
   transition: 0.6s;
+  text-decoration: none;
 }
 
 .footer__social-link:hover {

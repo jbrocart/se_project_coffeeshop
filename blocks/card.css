@@ -4,6 +4,11 @@
 
 .card__title {
   margin: 0 0 32px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .card__list {

@@ -1,6 +1,6 @@
 .reservation {
-  background: center / cover no-repeat #d9e7ff url(/images/check.svg);
-  background-color:#1878dc;
+  background: center / cover no-repeat #d9e7ff url(../images/background_reservation.svg);
+  background-color:#d9e7ff;
   padding: 100px 0 120px;
 }
 
